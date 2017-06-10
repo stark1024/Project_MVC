@@ -28,3 +28,5 @@ Important points:
    Therefore MySQL is required in your PC to run this project.
   -Run the given .sql file in your MySQL Console before running the project.
   -Do not forget to add MySQL Connector in the project library.
+  -Replace <YOUR MYSQL PASSWORD> in myConnection.java with your MySQL password. The link is given below:
+    https://github.com/stark1024/Project_MVC/blob/master/mvcProject/src/java/conn/myConnection.java
