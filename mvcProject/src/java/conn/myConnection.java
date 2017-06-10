@@ -19,7 +19,7 @@ public class myConnection {
         try {
              Class.forName("com.mysql.jdbc.Driver");
              con=DriverManager.getConnection
-                ("jdbc:mysql://localhost:3306/mvc","root","IP");
+                ("jdbc:mysql://localhost:3306/mvc","root","<YOUR MYSQL PASSWORD>");
         } catch (Exception e) {
             System.out.println(e);
         }
